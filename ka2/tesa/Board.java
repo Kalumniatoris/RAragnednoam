@@ -137,7 +137,7 @@ public class Board {
 		for (int x = 0; x < 2 * radius + 1; x += 1) {
 			for (int y = 0; y < 2 * radius + 1; y += 1) {
 				
-				view[x][y] = look[x][y].getType();
+				view[x][y] = (look[x][y]!=null)?look[x][y].getType():-1;
 				
 			}
 		}

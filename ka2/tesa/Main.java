@@ -1,5 +1,7 @@
 package ka2.tesa;
 
+import java.util.Random;
+
 import ka2.tesa.elements.Brandom;
 import ka2.tesa.elements.Player;
 
@@ -7,11 +9,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		Random rnd = new Random();
 		
 		
 		
-		
-		int size=50;
+		int size=rnd.nextInt(100)+7;
 		int turns = 1000;
 		Board arena = new Board(size);
 		//add players here
