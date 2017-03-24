@@ -12,7 +12,7 @@ public class Main {
 		
 		
 		int size=50;
-		int turns = 100;
+		int turns = 1000;
 		Board arena = new Board(size);
 		//add players here
 		Brandom brandom = new Brandom(1, "Brandom");
